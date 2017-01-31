@@ -13,7 +13,7 @@ import com.bumptech.glide.request.target.GlideDrawableImageViewTarget;
 
 import java.util.ArrayList;
 
-public class FBAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private ArrayList<Model> modelArrayList;
     private MainActivity activity;
     private String next;
